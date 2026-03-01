@@ -1,0 +1,13 @@
+{
+  "name": "codified-context",
+  "version": "1.0.0",
+  "description": "Three-tier persistent context infrastructure for AI coding agents — constitution, routing intelligence, and cold memory. Based on 'Codified Context: Infrastructure for AI Agents in a Complex Codebase' (Vasilopoulos, 2025).",
+  "author": {
+    "name": "Pete Warnock",
+    "url": "https://github.com/pwarnock"
+  },
+  "repository": "https://github.com/pwarnock/codified-context",
+  "license": "MIT",
+  "keywords": ["context", "memory", "constitution", "routing", "staleness", "codification"],
+  "hooks": "./hooks/hooks.json"
+}

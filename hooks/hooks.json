@@ -1,0 +1,17 @@
+{
+  "description": "Codified context infrastructure hooks — session-start staleness detection",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/session-start-staleness.sh",
+            "async": false
+          }
+        ]
+      }
+    ]
+  }
+}
