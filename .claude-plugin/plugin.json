@@ -8,6 +8,5 @@
   },
   "repository": "https://github.com/pwarnock/codified-context",
   "license": "MIT",
-  "keywords": ["context", "memory", "constitution", "routing", "staleness", "codification"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["context", "memory", "constitution", "routing", "staleness", "codification"]
 }
